@@ -1,0 +1,125 @@
+body{
+    background-color: #f3e5d8;
+    font-family: Arial, sans-serif;
+    color: #5f574e;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+h1, h2{
+    font-family: Georgia, serif;
+    }
+h2{
+   color: #854632; 
+}
+.main-container{
+   max-width: 600px;
+   height: auto;
+   margin:  50px auto;
+   padding: 20px 25px;
+   background-color: #ffffff;
+   border-radius: 20px;
+   
+}
+
+.header-image{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.header-content p{
+    margin-top: 15px;
+    line-height: 20px;
+    word-spacing: 1.5px;
+}
+.list-one{
+    margin: 20px 0;
+    background-color: #fff7fc;
+}
+.list-one h4{
+    color: #7b284f;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+.list-one ul {
+    padding: 0 0 10px 40px;
+    line-height: 30px;
+}
+.list-one ul > li{
+    padding-left: 20px;
+}
+.list-one span{
+    font-weight: bold;
+    margin-right: 3px;
+}
+.list-two h2{
+    margin-bottom: 15px; 
+}
+.list-two ul{
+    padding-left: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.list-two ul > li{
+    padding-left: 15px;
+}
+.para h2{
+    margin: 20px 0 15px 0;
+}
+.para ol{
+    padding-left: 25px;
+    word-spacing: 1.5px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.para ol > li {
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.para span{
+    font-weight: bold;
+}
+.footer h2{
+    margin: 20px 0 15px 0;
+}
+.footer p{
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+td {
+    padding: 16px 20px;
+    border-bottom: 1px solid gray;
+    
+}
+td:last-child{
+    color: #854632;
+    font-weight: bold;
+}
+tr:last-child td{
+    border-bottom: none;
+}
+li::marker{
+    color: #854632;
+}
+@media screen and (max-width: 600px){
+    .main-container{
+        width: 100%;
+        margin: 0;
+        border: none;
+        border-radius: 0px;
+        padding: 15px;}
+
+    .header-imgae{
+        height: 200px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
